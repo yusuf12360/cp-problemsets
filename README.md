@@ -8,5 +8,5 @@ To ensure contest integrity, the actual development and testing of these problem
 
 For each problem listed, I have included:
 * **Problem Statements**: The English-translated version of the description, I/O format, etc.
-* **Solutions**: My personal implementation of the intended algorithm (C++).
+* **Solutions**: My personal C++ implementation of the intended solution.
 * **Editorials**: Detailed explanations of the logic and complexity required to solve the task.
