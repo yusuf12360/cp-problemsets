@@ -7,6 +7,6 @@ To ensure contest integrity, the actual development and testing of these problem
 ## Contents
 
 For each problem listed, I have included:
-* **Problem Statements**: The English-translated version of the combined description, I/O format, etc.
+* **Problem Statements**: The English-translated version of the description, I/O format, etc.
 * **Solutions**: My personal implementation of the intended algorithm (C++).
 * **Editorials**: Detailed explanations of the logic and complexity required to solve the task.
