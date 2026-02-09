@@ -1,7 +1,7 @@
 # Safe Cracking
 
-Time Limit: 1 second  
-Memory Limit: 256 MB
+**Time Limit:** 1 second  
+**Memory Limit:** 256 MB
 
 **Estimated Difficulty:** 1200  
 **Topics:** Combinatorics, Math, Constructive Algorithms
