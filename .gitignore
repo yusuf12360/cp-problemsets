@@ -33,9 +33,13 @@
 *.lib
 
 # Executables
+sol
 *.exe
 *.out
 *.app
 
 # debug information files
 *.dwo
+
+# Extensions
+*.cph
