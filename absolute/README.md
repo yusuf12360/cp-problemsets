@@ -72,7 +72,7 @@ $$
 $$
 
 $$
-|x - 1| = \frac{5}{2} \implies\displaystyle{\begin{cases} x - 1 = \frac{5}{2} \rightarrow x = \frac{7}{2} = 3.5 \\ x - 1 = -\frac{5}{2} \rightarrow x = -\frac{3}{2} = -1.5 \end{cases}}
+|x - 1| = \frac{5}{2} \implies \displaystyle{\begin{cases} x - 1 = \frac{5}{2} \implies x = 3.5 \\ x - 1 = -\frac{5}{2} \implies x = -1.5 \end{cases}}
 $$
 
 ## Example 2
