@@ -8,11 +8,7 @@
 
 ## Description
 
-Pak Dengklek is a reliable safe cracker. However, today, the safe he wishes to crack is rather unique; its PIN is a base-
-$
-K
-$ 
-number with $N$ digits numbered from $1$ to $N$ (leading zeros are allowed), where naturally each digit is an integer from $0$ to $K - 1$ inclusive.
+Pak Dengklek is a reliable safe cracker. However, today, the safe he wishes to crack is rather unique; its PIN is a base-$K$ number with $N$ digits numbered from $1$ to $N$ (leading zeros are allowed), where naturally each digit is an integer from $0$ to $K - 1$ inclusive.
 
 To crack this safe, Pak Dengklek must correctly guess all the digits. However, somehow, Pak Dengklek has managed to acquire information regarding the safe's PIN in the form of an array $A$ of length $N$, where each element in this array is an integer from $-1$ to $K - 1$ inclusive. If $A_i \geq 0$, it indicates that the $i$-th digit is definitely greater than or equal to $A_i$. Meanwhile, all digits with index $i$ where $A_i = -1$ are definitely distinct. In other words, there are no two indices $i$ and $j$ where $1 \leq i < j \leq N$ satisfying $A_i = A_j = -1$ such that the $i$-th digit is equal to the $j$-th digit.
 
@@ -117,11 +113,7 @@ For any index $i$ where $A_i$ is non-negative, the digit $d_i$ must satisfy $A_i
 **2. Distinctness Constraints ($A_i = -1$):**
 Let $C$ be the total count of indices where $A_i = -1$. These $C$ positions must all contain unique values chosen from the set $\{0, 1, \dots, K-1\}$.
 * If $C > K$, it is impossible to assign unique values (Pigeonhole Principle), resulting in $0$ possibilities.
-* If 
-$
-C \leq K
-$
-, the number of ways to assign these digits is the number of permutations of $K$ items taken $C$ at a time: $P(K, C) = K \times (K-1) \times \dots \times (K - C + 1)$.
+* If $C \leq K$, the number of ways to assign these digits is the number of permutations of $K$ items taken $C$ at a time: $P(K, C) = K \times (K-1) \times \dots \times (K - C + 1)$.
 
 The final result is the product of the independent choices from both steps, calculated under modulo $10^9 + 7$.
 
