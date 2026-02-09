@@ -3,8 +3,8 @@
 **Time Limit:** 2 seconds  
 **Memory Limit:** 128 MB
 
-**Estimated Difficulty:** 1400  
-**Topics:** Brute Force, Constructive Algorithms, Math
+**Estimated Difficulty:** 1400 (Codeforces-based)  
+**Tags:** Brute Force, Constructive Algorithms, Math
 
 ## Description
 
@@ -62,7 +62,8 @@ For $i = 2$, there are 6 satisfying palindromes: 2, 5, 8, 11, 44, 77.
 ### Subtask 1
 
 For $N \leq 10^6$, we can simply iterate through every integer from $1$ to $N$. For each integer, we check if it is a palindrome by reversing its string or integer representation. If it is a palindrome, we compute modulo $K$ and update the frequency array.
-Time complexity: $O(N \log N)$.
+
+**Time complexity:** $O(N \log N)$.
 
 ### Subtask 2 (Full Solution)
 
