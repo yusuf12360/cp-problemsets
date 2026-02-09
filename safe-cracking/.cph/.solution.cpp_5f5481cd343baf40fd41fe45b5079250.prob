@@ -1,1 +1,0 @@
-{"name":"Local: solution","url":"/home/yusuf12360/projects/cp-problemsets/safe-cracking/solution.cpp","tests":[{"id":1770638898649,"input":"10 3\n-1 0 1 1 0 -1 1 0 0 1","output":"7776"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/yusuf12360/projects/cp-problemsets/safe-cracking/solution.cpp","group":"local","local":true}
