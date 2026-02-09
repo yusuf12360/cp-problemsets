@@ -8,7 +8,7 @@
 
 ## Description
 
-Pak Dengklek is a reliable safe cracker. However, today, the safe he wishes to crack is rather unique; its PIN is a base-$K$ number with $N$ digits numbered from $1$ to $N$ (leading zeros are allowed), where naturally each digit is an integer from $0$ to $K - 1$ inclusive.
+Pak Dengklek is a reliable safe cracker. However, today, the safe he wishes to crack is rather unique; its PIN is a base $K$ number with $N$ digits numbered from $1$ to $N$ (leading zeros are allowed), where naturally each digit is an integer from $0$ to $K - 1$ inclusive.
 
 To crack this safe, Pak Dengklek must correctly guess all the digits. However, somehow, Pak Dengklek has managed to acquire information regarding the safe's PIN in the form of an array $A$ of length $N$, where each element in this array is an integer from $-1$ to $K - 1$ inclusive. If $A_i \geq 0$, it indicates that the $i$-th digit is definitely greater than or equal to $A_i$. Meanwhile, all digits with index $i$ where $A_i = -1$ are definitely distinct. In other words, there are no two indices $i$ and $j$ where $1 \leq i < j \leq N$ satisfying $A_i = A_j = -1$ such that the $i$-th digit is equal to the $j$-th digit.
 
