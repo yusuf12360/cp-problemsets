@@ -3,7 +3,7 @@
 **Time Limit:** 3 seconds  
 **Memory Limit:** 256 MB
 
-**Estimated Difficulty:** 1600  
+**Estimated Difficulty:** 1600 (Codeforces-based)  
 **Tags:** Math, Geometry, Sorting, Implementation
 
 ## Description
@@ -11,7 +11,10 @@
 Magnus has just arrived in his class and is greeted by $N$ of his friends. Each of them gives him a number; the $i$-th friend gives Magnus an integer $A_i$.
 
 When the first session began, the teacher gave the students the freedom to do self-study, and Magnus's decision at that moment was **absolute**, that is to solve the following equation:
-$|x - A_1| + |x - A_2| + |x - A_3| + \dots + |x - A_N| = S$
+
+$$
+|x - A_1| + |x - A_2| + |x - A_3| + \dots + |x - A_N| = S
+$$
 
 Help Magnus to determine all real numbers $x$ that satisfy that equation, or report that there are infinitely many solutions.
 
@@ -102,9 +105,13 @@ Note that the absolute value of a number must be non-negative. In this case, bec
 <summary><b>Click to view the Editorial</b></summary>
 
 ### Subtask 1
-Since all $A_i$ are equal, let $A = A_1 = A_2 = \dots = A_N$.
-The equation becomes:
-$\sum_{i=1}^N |x - A| = S \implies N|x - A| = S \implies |x - A| = \frac{S}{N}$
+Since all $A_i$ are equal, let $A = A_1 = A_2 = \dots = A_N$.  
+The equation becomes:  
+
+$
+\sum_{i=1}^N |x - A| = S \implies N|x - A| = S \implies |x - A| = \frac{S}{N}
+$
+
 Thus, the solutions are $x = A + \frac{S}{N}$ and $x = A - \frac{S}{N}$. Note that if $S=0$, there is only 1 solution ($x=A$).
 
 ### Subtask 2
