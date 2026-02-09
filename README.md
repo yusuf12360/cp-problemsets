@@ -10,7 +10,3 @@ For each problem listed, I have included:
 * **Problem Statements**: The English-translated version of the description, I/O format, etc.
 * **Solutions**: My personal C++ implementation of the intended solution.
 * **Editorials**: Detailed explanations of the logic and complexity required to solve the task.
-
-## Work in Progress
-
-I am currently in the process of translating several problem statements & editorials into English to make them accessible to a wider audience.
