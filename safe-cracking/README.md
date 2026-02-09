@@ -3,8 +3,8 @@
 **Time Limit:** 1 second  
 **Memory Limit:** 256 MB
 
-**Estimated Difficulty:** 1200  
-**Topics:** Combinatorics, Math
+**Estimated Difficulty:** 1200 (Codeforces-based)
+**Tags:** Combinatorics, Math
 
 ## Description
 
