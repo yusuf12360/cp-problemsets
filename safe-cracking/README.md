@@ -4,7 +4,7 @@
 **Memory Limit:** 256 MB
 
 **Estimated Difficulty:** 1200  
-**Topics:** Combinatorics, Math, Constructive Algorithms
+**Topics:** Combinatorics, Math
 
 ## Description
 
