@@ -117,8 +117,7 @@ Let $C$ be the total count of indices where $A_i = -1$. These $C$ positions must
 
 The final result is the product of the independent choices from both steps, calculated under modulo $10^9 + 7$.
 
-**Complexity:**
-* **Time Complexity:** $O(N)$ as each element is processed once.
-* **Space Complexity:** $O(N)$ to store the array, or $O(1)$ if processed on the fly.
+**Time Complexity:** $O(N)$ as each element is processed once.  
+**Space Complexity:** $O(N)$ to store the array, or $O(1)$ if processed on the fly.
 
 </details>
