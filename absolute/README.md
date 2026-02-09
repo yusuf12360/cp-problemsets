@@ -64,7 +64,9 @@ Contestant's output will be considered accepted if and only if the number on the
 ### Explanation
 
 $|x - 1| + |x - 1| = 5$
+
 $2|x - 1| = 5$
+
 $|x - 1| = \frac{5}{2} \implies\displaystyle{\begin{cases} x - 1 = \frac{5}{2} \rightarrow x = \frac{7}{2} = 3.5 \\ x - 1 = -\frac{5}{2} \rightarrow x = -\frac{3}{2} = -1.5 \end{cases}}$
 
 ## Example 2
