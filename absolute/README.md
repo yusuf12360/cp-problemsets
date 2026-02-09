@@ -63,17 +63,9 @@ Contestant's output will be considered accepted if and only if the number on the
 
 ### Explanation
 
-$
-|x - 1| + |x - 1| = 5
-$
-
-$
-2|x - 1| = 5
-$
-
-$
-|x - 1| = \frac{5}{2} \implies\displaystyle{\begin{cases} x - 1 = \frac{5}{2} \rightarrow x = \frac{7}{2} = 3.5 \\ x - 1 = -\frac{5}{2} \rightarrow x = -\frac{3}{2} = -1.5 \end{cases}}
-$
+$|x - 1| + |x - 1| = 5$
+$2|x - 1| = 5$
+$|x - 1| = \frac{5}{2} \implies\displaystyle{\begin{cases} x - 1 = \frac{5}{2} \rightarrow x = \frac{7}{2} = 3.5 \\ x - 1 = -\frac{5}{2} \rightarrow x = -\frac{3}{2} = -1.5 \end{cases}}$
 
 ## Example 2
 
@@ -93,9 +85,7 @@ $
 
 ### Explanation
 
-$
-|x - (-1)| + |x - 3| + |x - (-2)| = 0
-$
+$|x - (-1)| + |x - 3| + |x - (-2)| = 0$
 
 Note that the absolute value of a number must be non-negative. In this case, because the sum is 0, the absolute value of each of the 3 parts must be $0$, which will lead us to a contradiction (if the absolute value of one part is $0$, then the absolute value of another part must be positive because the numbers are distinct). Therefore, no solutions exist.
 
@@ -108,9 +98,7 @@ Note that the absolute value of a number must be non-negative. In this case, bec
 Since all $A_i$ are equal, let $A = A_1 = A_2 = \dots = A_N$.  
 The equation becomes:  
 
-$
-\sum_{i=1}^N |x - A| = S \implies N|x - A| = S \implies |x - A| = \frac{S}{N}
-$
+$\sum_{i=1}^N |x - A| = S \implies N|x - A| = S \implies |x - A| = \frac{S}{N}$
 
 Thus, the solutions are $x = A + \frac{S}{N}$ and $x = A - \frac{S}{N}$. Note that if $S=0$, there is only 1 solution ($x=A$).
 
